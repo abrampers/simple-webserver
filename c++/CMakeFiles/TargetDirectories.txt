@@ -1,0 +1,3 @@
+/Users/abrampers/Documents/Academics/PAT/Tugas1/c++/CMakeFiles/rebuild_cache.dir
+/Users/abrampers/Documents/Academics/PAT/Tugas1/c++/CMakeFiles/edit_cache.dir
+/Users/abrampers/Documents/Academics/PAT/Tugas1/c++/CMakeFiles/simple-webserver.dir

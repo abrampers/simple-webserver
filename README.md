@@ -3,6 +3,7 @@
 ## C++
 ### Dependencies
 1. libuv
+You have to make sure CMake can find libuv library
 ```sh-session
 brew install libuv
 ```

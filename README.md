@@ -18,6 +18,12 @@ cmake ..
 make
 ```
 
+### Running the webserver
+```sh-session
+cd build
+./simple-webserver <PORT>
+```
+
 #### Node.js
 ```sh-session
 ```

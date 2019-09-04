@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named simple-webserver
 
 # Build rule for target.
@@ -150,6 +163,33 @@ src/main.cc.s:
 	$(MAKE) -f CMakeFiles/simple-webserver.dir/build.make CMakeFiles/simple-webserver.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
+src/test.o: src/test.cc.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cc.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cc.o
+.PHONY : src/test.cc.o
+
+src/test.i: src/test.cc.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cc.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cc.i
+.PHONY : src/test.cc.i
+
+src/test.s: src/test.cc.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cc.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cc.s
+.PHONY : src/test.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... simple-webserver"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

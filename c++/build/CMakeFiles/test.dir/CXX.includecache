@@ -6,24 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/src/main.cc
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/src/test.cc
 stdio.h
 -
-stdlib.h
--
-string.h
--
 uv.h
--
-map
--
-string
--
-sstream
--
-fstream
--
-iostream
 -
 
 /usr/local/include/uv.h

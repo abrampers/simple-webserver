@@ -41,17 +41,11 @@ public:
         std::string file_path;
         bool url_valid = false;
         
-        if (url == "/" || url == "/abram.html") {
-            file_path = "../public/abram.html";
+        if (url == "/" || url == "/5.html") {
+            file_path = "../public/5.html";
             url_valid = true;
-        } else if (url == "/hafizh.html") {
-            file_path = "../public/hafizh.html";
-            url_valid = true;
-        } else if (url == "/onel.html") {
-            file_path = "../public/onel.html";
-            url_valid = true;
-        } else if (url == "/restu.html") {
-            file_path = "../public/restu.html";
+        } else if (url == "/20.html") {
+            file_path = "../public/20.html";
             url_valid = true;
         }
 
@@ -124,6 +118,8 @@ uv_buf_t build_response(uv_buf_t buf) {
     std::string res = ws.get_response();
     char *base = (char *) res.c_str();
     unsigned int len = (unsigned int) res.length();
+
+    printf("res\n\n%s\n", base);
 
     return uv_buf_init(base, len);
 }

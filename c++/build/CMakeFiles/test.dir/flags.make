@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include 
+CXX_INCLUDES = -I"/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/include" 
 

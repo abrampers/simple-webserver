@@ -3,9 +3,3 @@
 
 CMakeFiles/simple-webserver.dir/src/main.cc.o
  /Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/src/main.cc
- /usr/local/include/uv.h
- /usr/local/include/uv/darwin.h
- /usr/local/include/uv/errno.h
- /usr/local/include/uv/threadpool.h
- /usr/local/include/uv/unix.h
- /usr/local/include/uv/version.h

@@ -10,11 +10,12 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
+  "../lib/libuv/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/build/lib/libuv/CMakeFiles/uv.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

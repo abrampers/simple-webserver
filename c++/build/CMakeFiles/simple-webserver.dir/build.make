@@ -79,7 +79,7 @@ simple__webserver_EXTERNAL_OBJECTS =
 
 simple-webserver: CMakeFiles/simple-webserver.dir/src/main.cc.o
 simple-webserver: CMakeFiles/simple-webserver.dir/build.make
-simple-webserver: /usr/local/lib/libuv.dylib
+simple-webserver: lib/libuv/libuv.dylib
 simple-webserver: CMakeFiles/simple-webserver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple-webserver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple-webserver.dir/link.txt --verbose=$(VERBOSE)

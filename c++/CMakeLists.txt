@@ -4,8 +4,9 @@ project(simple-webserver)
 set(APP_TARGET simple-webserver)
 
 # libuv
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake)
-find_package(libuv REQUIRED)
+add_subdirectory(lib/libuv)
+set(LIBUV_LIBRARIES uv)
+set(LIBUV_INCLUDE_DIRS lib/libuv/include)
 
 # Main executable
 add_executable(${APP_TARGET} src/main.cc)

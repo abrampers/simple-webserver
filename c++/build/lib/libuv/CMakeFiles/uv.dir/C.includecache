@@ -1,0 +1,944 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/libuv/include/uv.h
+uv/errno.h
+../lib/libuv/include/uv/errno.h
+uv/version.h
+../lib/libuv/include/uv/version.h
+stddef.h
+-
+stdio.h
+-
+uv/stdint-msvc2008.h
+../lib/libuv/include/uv/stdint-msvc2008.h
+stdint.h
+-
+uv/win.h
+../lib/libuv/include/uv/win.h
+uv/unix.h
+../lib/libuv/include/uv/unix.h
+
+../lib/libuv/include/uv/aix.h
+
+../lib/libuv/include/uv/bsd.h
+
+../lib/libuv/include/uv/darwin.h
+mach/mach.h
+-
+mach/task.h
+-
+mach/semaphore.h
+-
+TargetConditionals.h
+-
+
+../lib/libuv/include/uv/errno.h
+errno.h
+-
+
+../lib/libuv/include/uv/linux.h
+
+../lib/libuv/include/uv/os390.h
+
+../lib/libuv/include/uv/posix.h
+
+../lib/libuv/include/uv/stdint-msvc2008.h
+limits.h
+-
+wchar.h
+-
+
+../lib/libuv/include/uv/sunos.h
+sys/port.h
+-
+port.h
+-
+
+../lib/libuv/include/uv/threadpool.h
+
+../lib/libuv/include/uv/tree.h
+
+../lib/libuv/include/uv/unix.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+dirent.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netinet/tcp.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+termios.h
+-
+pwd.h
+-
+semaphore.h
+-
+sys/param.h
+-
+pthread.h
+-
+signal.h
+-
+uv/threadpool.h
+../lib/libuv/include/uv/uv/threadpool.h
+uv/linux.h
+../lib/libuv/include/uv/uv/linux.h
+uv/os390.h
+../lib/libuv/include/uv/uv/os390.h
+uv/posix.h
+../lib/libuv/include/uv/uv/posix.h
+uv/aix.h
+../lib/libuv/include/uv/uv/aix.h
+uv/sunos.h
+../lib/libuv/include/uv/uv/sunos.h
+uv/darwin.h
+../lib/libuv/include/uv/uv/darwin.h
+uv/bsd.h
+../lib/libuv/include/uv/uv/bsd.h
+uv/posix.h
+../lib/libuv/include/uv/uv/posix.h
+uv/posix.h
+../lib/libuv/include/uv/uv/posix.h
+
+../lib/libuv/include/uv/version.h
+
+../lib/libuv/include/uv/win.h
+winsock2.h
+-
+mswsock.h
+-
+ws2tcpip.h
+-
+windows.h
+-
+process.h
+-
+signal.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+uv/stdint-msvc2008.h
+../lib/libuv/include/uv/uv/stdint-msvc2008.h
+stdint.h
+-
+uv/tree.h
+../lib/libuv/include/uv/uv/tree.h
+uv/threadpool.h
+../lib/libuv/include/uv/uv/threadpool.h
+
+../lib/libuv/src/heap-inl.h
+stddef.h
+-
+
+../lib/libuv/src/idna.h
+
+../lib/libuv/src/queue.h
+stddef.h
+-
+
+../lib/libuv/src/strscpy.h
+uv.h
+../lib/libuv/src/uv.h
+
+../lib/libuv/src/uv-common.h
+assert.h
+-
+stdarg.h
+-
+stddef.h
+-
+uv/stdint-msvc2008.h
+../lib/libuv/src/uv/stdint-msvc2008.h
+stdint.h
+-
+uv.h
+../lib/libuv/src/uv.h
+uv/tree.h
+../lib/libuv/src/uv/tree.h
+queue.h
+../lib/libuv/src/queue.h
+strscpy.h
+../lib/libuv/src/strscpy.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/fs-poll.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+win/internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/internal.h
+win/handle-inl.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/handle-inl.h
+unix/internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+win/internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/internal.h
+win/handle-inl.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/handle-inl.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/heap-inl.h
+stddef.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/idna.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+idna.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/idna.h
+string.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/idna.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/inet.c
+stdio.h
+-
+string.h
+-
+uv/stdint-msvc2008.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv/stdint-msvc2008.h
+stdint.h
+-
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/queue.h
+stddef.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/strscpy.c
+strscpy.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/strscpy.h
+limits.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/strscpy.h
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/threadpool.c
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+unix/internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stdlib.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/timer.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+heap-inl.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/heap-inl.h
+assert.h
+-
+limits.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/async.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+atomic-ops.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/atomic-ops.h
+errno.h
+-
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/atomic-ops.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+atomic.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/bsd-ifaddrs.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+errno.h
+-
+stddef.h
+-
+ifaddrs.h
+-
+net/if.h
+-
+net/if_dl.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/core.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+assert.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+sys/ioctl.h
+-
+sys/socket.h
+-
+sys/un.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+limits.h
+-
+sys/uio.h
+-
+sys/resource.h
+-
+pwd.h
+-
+sys/utsname.h
+-
+sys/time.h
+-
+sys/filio.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+crt_externs.h
+-
+mach-o/dyld.h
+-
+sys/filio.h
+-
+sys/sysctl.h
+-
+sys/filio.h
+-
+sys/wait.h
+-
+dlfcn.h
+-
+sys/ioctl.h
+-
+sys/syscall.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/darwin-proctitle.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+dlfcn.h
+-
+errno.h
+-
+stdlib.h
+-
+string.h
+-
+TargetConditionals.h
+-
+CoreFoundation/CoreFoundation.h
+-
+ApplicationServices/ApplicationServices.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/darwin.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+stdint.h
+-
+errno.h
+-
+mach/mach.h
+-
+mach/mach_time.h
+-
+mach-o/dyld.h
+-
+sys/resource.h
+-
+sys/sysctl.h
+-
+unistd.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/dl.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+dlfcn.h
+-
+errno.h
+-
+string.h
+-
+locale.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/fs.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+sys/uio.h
+-
+pthread.h
+-
+unistd.h
+-
+fcntl.h
+-
+poll.h
+-
+sys/sendfile.h
+-
+sys/sysctl.h
+-
+sys/ioctl.h
+-
+utime.h
+-
+sys/param.h
+-
+sys/mount.h
+-
+sys/statvfs.h
+-
+sys/statfs.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/fsevents.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+dlfcn.h
+-
+assert.h
+-
+stdlib.h
+-
+pthread.h
+-
+CoreFoundation/CFRunLoop.h
+-
+CoreServices/CoreServices.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/getaddrinfo.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+idna.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/idna.h
+errno.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+net/if.h
+-
+netdb.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/getnameinfo.c
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv-common.h
+assert.h
+-
+limits.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+stdio.h
+-
+errno.h
+-
+linux-syscalls.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/linux-syscalls.h
+os390-syscalls.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/os390-syscalls.h
+sys/port.h
+-
+port.h
+-
+sys/poll.h
+-
+poll.h
+-
+AvailabilityMacros.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/kqueue.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+sys/sysctl.h
+-
+sys/types.h
+-
+sys/event.h
+-
+sys/time.h
+-
+unistd.h
+-
+fcntl.h
+-
+time.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/linux-syscalls.h
+stdint.h
+-
+signal.h
+-
+sys/types.h
+-
+sys/time.h
+-
+sys/socket.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/loop-watcher.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/loop.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+uv/tree.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv/tree.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+heap-inl.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/heap-inl.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/os390-syscalls.h
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+dirent.h
+-
+poll.h
+-
+pthread.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/pipe.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+errno.h
+-
+string.h
+-
+sys/un.h
+-
+unistd.h
+-
+stdlib.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/poll.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+unistd.h
+-
+assert.h
+-
+errno.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/process.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+fcntl.h
+-
+poll.h
+-
+crt_externs.h
+-
+grp.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/proctitle.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stdlib.h
+-
+string.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/signal.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+errno.h
+-
+signal.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/spinlock.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+atomic-ops.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/atomic-ops.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/stream.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/uio.h
+-
+sys/un.h
+-
+unistd.h
+-
+limits.h
+-
+sys/event.h
+-
+sys/time.h
+-
+sys/select.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/tcp.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+stdlib.h
+-
+unistd.h
+-
+assert.h
+-
+errno.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/thread.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+pthread.h
+-
+assert.h
+-
+errno.h
+-
+sys/time.h
+-
+sys/resource.h
+-
+unistd.h
+-
+limits.h
+-
+sys/ipc.h
+-
+sys/sem.h
+-
+gnu/libc-version.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/tty.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+spinlock.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/spinlock.h
+stdlib.h
+-
+assert.h
+-
+unistd.h
+-
+termios.h
+-
+errno.h
+-
+sys/ioctl.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/udp.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/unix/internal.h
+assert.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+unistd.h
+-
+xti.h
+-
+sys/un.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+assert.h
+-
+errno.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+malloc.h
+-
+net/if.h
+-
+sys/un.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+assert.h
+-
+stdarg.h
+-
+stddef.h
+-
+uv/stdint-msvc2008.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv/stdint-msvc2008.h
+stdint.h
+-
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+uv/tree.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv/tree.h
+queue.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/queue.h
+strscpy.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/strscpy.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-data-getter-setters.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/version.c
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/handle-inl.h
+assert.h
+-
+io.h
+-
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/uv.h
+internal.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/internal.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/internal.h
+uv.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/uv.h
+../uv-common.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/uv-common.h
+uv/tree.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/uv/tree.h
+winapi.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/winapi.h
+winsock.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/winsock.h
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/winapi.h
+windows.h
+-
+
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/winsock.h
+winsock2.h
+-
+iptypes.h
+-
+mswsock.h
+-
+ws2tcpip.h
+-
+windows.h
+-
+winapi.h
+/Users/abrampers/Documents/Academics/7th Semester/PAT/Tugas1/c++/lib/libuv/src/win/winapi.h
+

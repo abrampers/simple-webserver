@@ -64,37 +64,37 @@ node app.js
 
 # Screenshots
 ## Apache:
-### 500b:  
+### 500B:  
 ![Apache Memory Usage 500b](screenshots/k6/k6_apache_500B.png)
 ![Apache Memory Usage 500b](screenshots/munin/munin_apache_500B.png)
 
-### 20kb:  
+### 20KB:  
 ![Apache Memory Usage 20kb](screenshots/k6/k6_apache_20KB.png)
 ![Apache Memory Usage 20kb](screenshots/munin/munin_apache_20KB.png)
 
 ## Nginx:
-### 500b:  
+### 500B:  
 ![NginX Memory Usage 500b](screenshots/k6/k6_nginx_500B.png)
 ![NginX Memory Usage 500b](screenshots/munin/munin_nginx_500B.png)
 
-### 20kb:  
+### 20KB:  
 ![NginX Memory Usage 20kb](screenshots/k6/k6_nginx_20KB.png)
 ![NginX Memory Usage 20kb](screenshots/munin/munin_nginx_20KB.png)
 
 ## C++:
-### 500b:  
+### 500B:  
 ![C++ Memory Usage 500b](screenshots/k6/k6_cpp_500B.png)
 ![C++ Memory Usage 500b](screenshots/munin/munin_cpp_500B.png)
 
-### 20kb:  
+### 20KB:  
 ![C++ Memory Usage 20kb](screenshots/k6/k6_cpp_20KB.png)
 ![C++ Memory Usage 20kb](screenshots/munin/munin_cpp_20KB.png)
 
 ## NodeJS:
-### 500b:  
+### 500B:  
 ![NodeJS Memory Usage 500b](screenshots/k6/k6_node_500B.png)
 ![NodeJS Memory Usage 500b](screenshots/munin/munin_node_500B.png)
 
-### 20kb:  
+### 20KB:  
 ![NodeJS Memory Usage 20kb](screenshots/k6/k6_node_20KB.png)
 ![NodeJS Memory Usage 20kb](screenshots/munin/munin_node_20KB.png)

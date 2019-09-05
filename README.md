@@ -1,3 +1,9 @@
+# Tugas 1 - Event-based server
+1. 13516083 - Abram Perdanaputra
+2. 13516113 - Cornelius Yan Mintareja
+3. 13516137 - Hafizh Budiman
+4. 13516155 - Restu Wahyu Kartiko
+
 # Spesifikasi tool benchmark yang digunakan
 - Operating System: Ubuntu 18.04
 - Processor: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz

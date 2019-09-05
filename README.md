@@ -3,6 +3,7 @@
 - Processor: Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
 - RAM: 8GB
 - K6 untuk melakukan pengukuran kinerja sistem dengan melakukan 10 ribu request konkuren
+- Munin untuk melihat memory yang digunakan oleh komputer
 
 # Cara melakukan tes
 1. Jalankan web server (Apache, Nginx, C++ dengan library libuv, serta NodeJS untuk static HTML file)
